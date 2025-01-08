@@ -25,6 +25,23 @@ color: #FD6E0A ;}
   border-radius: 5px;
   border: none;
 }
+.section-tittle{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+
+}
+.section-d{
+  font-size: 18px;
+  color: #757575;
+}
+.secondary-bg{
+  background-color: #FFF8F3;
+}
+.text-center{
+  text-align: center;
+}
+
 /* header styles */
 .headerr{
   background-image: url('../images/developer.png'), url('../images/header_bg.png');
@@ -77,4 +94,47 @@ nav li a{
 .banner-pf{
   height: 676px;
   width: 585px;
+}
+/* main styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+  
+
+}
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+/* about styles */
+.about{
+  border-radius: 10px;
+  padding: 131px 156px;
+  text-align: center;
+  
+}
+
+.itemdesc{
+  font-weight: bold;
+  font-size: 20px;
+}
+.d-item{
+  display: flex;
+  justify-content: space-around;
+}
+.itemtittle{
+  color: #757575;
+}
+.itemdesc{
+color: #474747;
+}
+/* skills section style */
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 33px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
